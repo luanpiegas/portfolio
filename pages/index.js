@@ -15,14 +15,14 @@ export default function Home() {
 
         <p className={styles.description}>
           Contact me at: <a href="mailto:luan@luan.des.br" rel="noopener noreferrer">luan@luan.des.br</a> 
-          <br>
+          <br/>
           or
-          <br>
+          <br/>
           <a href="https://api.whatsapp.com/send?phone=5554991949055" rel="noopener noreferrer">+55 54 991949055</a>
         </p>
         <p className={styles.description}>
           Present: Studio Visual
-          <br>
+          <br/>
           Past: Weecom, Alpina Digital, KIAI Agency, Burn The Flash and others.
         </p>
       </main>
