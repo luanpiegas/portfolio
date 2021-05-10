@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Contact me at: <a href="mailto:luan@luan.des.br">luan@luan.des.br</a> or <a href="https://api.whatsapp.com/send?phone=5554991949055">+55 54 991949055
+          Contact me at: <a href="mailto:luan@luan.des.br" rel="noopener noreferrer">luan@luan.des.br</a> or <a href="https://api.whatsapp.com/send?phone=5554991949055" rel="noopener noreferrer">+55 54 991949055</a>
         </p>
       </main>
 
