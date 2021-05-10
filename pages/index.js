@@ -5,27 +5,35 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Luan Piegas &mdash; WordPress / WooCommerce Developer</title>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Luan Piegas &mdash; WordPress Develoepr
+          Luan Piegas &mdash; WordPress Developer
         </h1>
 
         <p className={styles.description}>
-          Contact me at: <a href="mailto:luan@luan.des.br" rel="noopener noreferrer">luan@luan.des.br</a> or <a href="https://api.whatsapp.com/send?phone=5554991949055" rel="noopener noreferrer">+55 54 991949055</a>
+          Contact me at: <a href="mailto:luan@luan.des.br" rel="noopener noreferrer">luan@luan.des.br</a> 
+          <br>
+          or
+          <br>
+          <a href="https://api.whatsapp.com/send?phone=5554991949055" rel="noopener noreferrer">+55 54 991949055</a>
+        </p>
+        <p className={styles.description}>
+          Present: Studio Visual
+          <br>
+          Past: Weecom, Alpina Digital, KIAI Agency, Burn The Flash and others.
         </p>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://instagram.com/luanpiegas"
+          href="https://www.99freelas.com.br/user/luan-piegas"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Instagram
+          Hire me on 99freelas (BR)
         </a>
       </footer>
     </div>
