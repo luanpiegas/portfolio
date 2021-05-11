@@ -6,14 +6,6 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Luan Piegas &mdash; WordPress / WooCommerce Developer</title>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MF9N6CJEXM"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-MF9N6CJEXM');
-        </script>
       </Head>
 
       <main className={styles.main}>
@@ -44,6 +36,16 @@ export default function Home() {
           Hire me on 99freelas (BR)
         </a>
       </footer>
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MF9N6CJEXM"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MF9N6CJEXM');
+      </script>
+      
     </div>
   )
 }
